@@ -1,0 +1,52 @@
+.blur h2 {
+    font-size: 3em;
+}
+
+.blur input,
+.blur textarea {
+    color: white !important;
+    border-radius: 1em;
+}
+
+.blur input:hover,
+.blur input:hover:focus,
+.blur textarea:hover,
+.blur textarea:hover:focus {
+    box-shadow: 0 0 1em #c4009c;
+}
+
+.blur input:focus,
+.blur textarea:focus {
+    border-color: #ff9deb;
+    box-shadow: none;
+}
+
+@media (max-width: 960px) {
+    .blur {
+        width: 75%;
+    }
+}
+
+.btn-submit {
+    border-radius: 1em;
+    background-color: #c4009c;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #dc29b8 !important;
+    box-shadow: 0 0 1em #c4009c;
+}
+
+.register {
+    display: block;
+}
+
+.register a {
+    text-decoration: none;
+    color: #ff9deb;
+}
+
+.register a:hover {
+    color: #ff68e1;
+}

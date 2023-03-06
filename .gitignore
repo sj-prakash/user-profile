@@ -1,0 +1,11 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore composer.lock file
+/composer.lock
+
+# Ignore .vscode directory (if using VS Code)
+/.vscode/
+
+# Ignore .DS_Store files (if using macOS)
+*.DS_Store

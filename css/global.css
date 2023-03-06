@@ -1,0 +1,42 @@
+body {
+    background: url("../assets/bg.jpg") no-repeat;
+    background-size: cover;
+    color: white !important;
+    text-align: center;
+    position: relative;
+}
+
+.btn {
+    border-radius: 2em;
+}
+
+.navbar {
+    border-bottom: 0.1em solid #ff9deb;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1em);
+    -webkit-backdrop-filter: blur(1em);
+    height: 10vh;
+}
+
+.navbar-brand b {
+    color: #ff9deb;
+}
+
+.blur-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.blur {
+    width: 30%;
+    border-radius: 2em;
+    border: 0.2em solid #ff5ade;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(1em);
+    -webkit-backdrop-filter: blur(1em);
+
+    box-shadow: 0 0 2em white;
+    /* min-height: 50vh; */
+}

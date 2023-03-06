@@ -1,0 +1,11 @@
+.remember-me {
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.remember-me input:checked {
+    background-color: #c4009c;
+    color: white;
+    border: none;
+}

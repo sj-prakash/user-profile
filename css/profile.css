@@ -1,0 +1,31 @@
+.form-inputs textarea,
+.form-inputs input {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-inputs textarea:hover,
+.form-inputs input:hover {
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: none;
+}
+
+.form-inputs textarea:hover:focus,
+.form-inputs input:hover:focus {
+    border: 1px solid rgba(255, 157, 235, 1);
+}
+
+table td {
+    padding-bottom: 1.5em;
+}
+
+table tr:last-child td {
+    padding-bottom: 0;
+}
+
+.btn-logout {
+    border: none;
+}
+
+.btn-logout:hover {
+    box-shadow: 0 0 1em red;
+}

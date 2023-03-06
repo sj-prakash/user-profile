@@ -1,0 +1,7 @@
+.blur span p {
+    display: inline;
+}
+
+.blur-container {
+    min-height: 100vh;
+}

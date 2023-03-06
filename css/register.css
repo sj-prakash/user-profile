@@ -1,0 +1,23 @@
+.form-inputs {
+    height: 250px;
+    overflow-y: scroll;
+    padding-right: 17px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+    height: 150px !important;
+}
+
+.scroll-text {
+    font-size: 0.75em;
+    font-weight: 300;
+    opacity: 0.4;
+    transition: 0.3s;
+}
